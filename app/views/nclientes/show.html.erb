@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @ncliente.nome %>
+</p>
+
+<p>
+  <strong>Cpf:</strong>
+  <%= @ncliente.cpf %>
+</p>
+
+<%= link_to 'Edit', edit_ncliente_path(@ncliente) %> |
+<%= link_to 'Back', nclientes_path %>

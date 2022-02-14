@@ -1,0 +1,10 @@
+<script>
+	var nome,senha;
+	alert("Página de funcionários");
+	nome = prompt("Informe seu nome");
+	senha = prompt("Digite sua senha");
+	if(name!="empregado" && senha!="123"){
+		alert("Usuário ou senha inválidos");
+		window.history.back();	
+	}
+</script>

@@ -1,0 +1,2 @@
+class Ncliente < ApplicationRecord
+end
